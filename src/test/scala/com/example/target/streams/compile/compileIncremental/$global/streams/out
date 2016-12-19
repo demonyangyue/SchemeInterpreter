@@ -1,0 +1,94 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/ContextSpec.scala, /Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/ContextSpec.scala, /Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/ContextSpec.scala, /Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 309cabac, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/classes:/Users/yy/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/ContextSpec.scala:3: not found: type FlatSpec[0m
+[0m[[31merror[0m] [0mclass ContextSpec extends FlatSpec with Matchers with BeforeAndAfterAll {[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/ContextSpec.scala:3: not found: type Matchers[0m
+[0m[[31merror[0m] [0mclass ContextSpec extends FlatSpec with Matchers with BeforeAndAfterAll {[0m
+[0m[[31merror[0m] [0m                                        ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/ContextSpec.scala:3: not found: type BeforeAndAfterAll[0m
+[0m[[31merror[0m] [0mclass ContextSpec extends FlatSpec with Matchers with BeforeAndAfterAll {[0m
+[0m[[31merror[0m] [0m                                                      ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/ContextSpec.scala:6: value should is not a member of String[0m
+[0m[[31merror[0m] [0m  "context" should "find corresponding entry" in {[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:4: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.FlatSpec[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:5: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.Matchers[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:6: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.BeforeAndAfterAll[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:9: not found: type FlatSpec[0m
+[0m[[31merror[0m] [0mclass SchemeParserSpec extends FlatSpec with Matchers with BeforeAndAfterAll {[0m
+[0m[[31merror[0m] [0m                               ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:9: not found: type Matchers[0m
+[0m[[31merror[0m] [0mclass SchemeParserSpec extends FlatSpec with Matchers with BeforeAndAfterAll {[0m
+[0m[[31merror[0m] [0m                                             ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:9: not found: type BeforeAndAfterAll[0m
+[0m[[31merror[0m] [0mclass SchemeParserSpec extends FlatSpec with Matchers with BeforeAndAfterAll {[0m
+[0m[[31merror[0m] [0m                                                           ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:11: not found: value ReferenceTypes[0m
+[0m[[31merror[0m] [0m  import ReferenceTypes._[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:12: not found: value SchemeInterpreter[0m
+[0m[[31merror[0m] [0m  import SchemeInterpreter._[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:14: not found: type SchemeParser[0m
+[0m[[31merror[0m] [0m  def scheme = new SchemeParser(Reference) [0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:16: not found: type Parser[0m
+[0m[[31merror[0m] [0m  def check[A](parser: Parser[A])(input: String)(expected: A) {[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:18: not found: value Reference[0m
+[0m[[31merror[0m] [0m      Reference.run(parser)(input) match {[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:19: value shouldBe is not a member of Any[0m
+[0m[[31merror[0m] [0m        case Right(x) => x shouldBe expected[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:20: not found: value fail[0m
+[0m[[31merror[0m] [0m        case _ => fail("parse failed")[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:24: value should is not a member of String[0m
+[0m[[31merror[0m] [0m  "A Scheme Parser" should "parse the string literals successfully" in {[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:31: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "parse the number successfully" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:37: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "parse expressions successfully" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:45: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "parse combinations successfully" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/yy/programme/scala/SchemeInterpreter/src/test/scala/com/example/SchemeParserSpec.scala:51: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "parse scheme code successfully" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m22 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
