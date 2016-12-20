@@ -1,6 +1,7 @@
 # SchemeInterpreter
 
 
+[![Build Status](https://travis-ci.org/demonyangyue/SchemeInterpreter.svg?branch=master)](https://travis-ci.org/demonyangyue/SchemeInterpreter)
 
 My scheme interpreter written in scala, to get a better understanding of the book [Functional Programming in Scala](https://www.manning.com/books/functional-programming-in-scala), especially for the chapter 9 - Parser Combinators
 
@@ -45,5 +46,4 @@ sbt test
 
 * Cover all the scheme interpreter statements
 * More comprehensive error reporting
-
 
